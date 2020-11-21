@@ -1,0 +1,9 @@
+fn main() {
+    print!("WHILE is ");
+    let mut i = 0;
+    while i < 10 {
+        print!("{} ", i);
+        i += 2;
+    }
+    println!("");
+}
